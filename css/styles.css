@@ -1,8 +1,9 @@
 @import 'fonts.css';
+@import 'colors.css';
 
 body {
-  background-color: hsl(0, 0%, 8%);
-  color: hsl(0, 0%, 100%);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
 }
 
 h3, h5, p {
@@ -24,7 +25,7 @@ button {
   main {
     text-align: center;
 
-    background-color: hsl(0, 0%, 12%);
+    background-color: var(--bg-secondary);
 
     padding: 28px 25px;
 
@@ -46,7 +47,7 @@ button {
     h5 {
       margin-top: 8px;
 
-      color: hsl(75, 94%, 57%);
+      color: var(--text-secondary);
 
       font-size: 0.65rem;
       letter-spacing: 0.025rem;
@@ -54,7 +55,6 @@ button {
     }
 
     p {
-      color: hsl(0, 0%, 100%);
       opacity: 75%;
       font-size: 0.65rem;
 
@@ -80,14 +80,14 @@ button {
 
     font-size: 10px;
 
-    background-color: hsl(0, 0%, 20%);
-    color: hsl(0, 0%, 100%);
+    background-color: var(--bg-btn-primary);
+    color: var(--text-primary);
 
     cursor: pointer;
 
     &:hover {
-      background-color: hsl(75, 94%, 57%);
-      color: hsl(0, 0%, 8%);
+      background-color: var(--text-secondary);
+      color: var(--bg-primary);
     }
   }
 }

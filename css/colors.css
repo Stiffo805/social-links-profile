@@ -1,0 +1,9 @@
+:root {
+  --bg-primary: hsl(0, 0%, 8%);
+  --bg-secondary: hsl(0, 0%, 12%);
+
+  --bg-btn-primary: hsl(0, 0%, 20%);
+  
+  --text-primary: hsl(0, 0%, 100%);
+  --text-secondary: hsl(75, 94%, 57%);
+}

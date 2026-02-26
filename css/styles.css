@@ -1,0 +1,93 @@
+@import 'fonts.css';
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+}
+
+h3, h5, p {
+  font-family: Inter-Variable-Regular;
+}
+
+button {
+  font-family: Inter-Variable-SemiBold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 100vh;
+
+  main {
+    text-align: center;
+
+    background-color: hsl(0, 0%, 12%);
+
+    padding: 28px 25px;
+
+    border-radius: 10px;
+
+    max-width: 15rem;
+    width: 100%;
+
+    img {
+      width: 4rem;
+
+      border-radius: 9999px;
+    }
+
+    h3 {
+      margin-bottom: 0;
+    }
+
+    h5 {
+      margin-top: 8px;
+
+      color: hsl(75, 94%, 57%);
+
+      font-size: 0.65rem;
+      letter-spacing: 0.025rem;
+      line-height: 12px;
+    }
+
+    p {
+      color: hsl(0, 0%, 100%);
+      opacity: 75%;
+      font-size: 0.65rem;
+
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.nav-button-anchor {
+  display: block;
+
+  width: 100%;
+
+  & + & {
+    margin-top: 10px;
+  }
+
+  .nav-button {
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    border-radius: 5px;
+
+    font-size: 10px;
+
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+
+    cursor: pointer;
+
+    &:hover {
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 8%);
+    }
+  }
+}
